@@ -4,7 +4,7 @@ This project is inspired by the result of [Google Research](https://github.com/g
 
 ## How Does It finetune PEGASUS on the custom dataset?
 
-### 1. Install [PEGASUS library and dependencies](https://github.com/google-research/pegasus) including model weights 
+### 1. Install [PEGASUS library and dependencies](https://github.com/google-research/pegasus) including model weights and put it to the repository root
 ### 2. Add new finetuning dataset in format of [TensorFlow Datasets (TFDS)](https://www.tensorflow.org/datasets/add_dataset):
 #### 2.1.  Copy `my_dataset.py` and `my_dataset_test.py` from `src/data/tf_datasets/` to `~/anaconda3/lib/python3.7/site-packages/tensorflow_datasets/summarization` (if you are using conda env)
 #### 2.2. In `~/anaconda3/lib/python3.7/site-packages/tensorflow_datasets/summarization`  edit `__init__.py` adding next line: `from tensorflow_datasets.summarization.my_dataset import MyDataset`
