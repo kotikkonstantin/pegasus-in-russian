@@ -10,7 +10,7 @@ This project is inspired by the result of [Google Research](https://github.com/g
 #### 2.2. In `~/anaconda3/lib/python3.7/site-packages/tensorflow_datasets/summarization`  edit `__init__.py` adding next line: `from tensorflow_datasets.summarization.my_dataset import MyDataset`
 #### 2.3. In the file `~/anaconda3/lib/python3.7/site-packages/tensorflow_datasets/core/registered.py` set **variable `_skip_registration = True`** 
 ### 3. Prepare PEGASUS finetuning:
-#### 3.1. In the file `pegasus/pegasus/params/public_params.py` register your custom transformer similar to other in this file:
+#### 3.1. In the file `pegasus/pegasus/params/public_params.py` add your custom transformer similar to other in this file:
 ```
 @registry.register("russian_sport_news_transformer")
 def russian_sport_news_transformer(param_overrides):
