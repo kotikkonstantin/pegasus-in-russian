@@ -26,7 +26,7 @@ def russian_sport_news_transformer(param_overrides):
           "batch_size": 16,
       }, param_overrides)
 ```  
-### 4. Create Russian Vocablurary by BPE in implementation of [sentencepiece](https://github.com/google/sentencepiece). Just run `python src/utils/create_vocabulary.py`
+### 4. Create Russian Vocabulary by BPE in implementation of [sentencepiece](https://github.com/google/sentencepiece). Just run `python src/utils/create_vocabulary.py`
 
 ### 5. Launch finetuning through bash - `sh run.sh`:
 ```
