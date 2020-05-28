@@ -58,4 +58,4 @@ python pegasus/bin/train.py --params=russian_sport_news_transformer \
 
 **based on 760 test texts**. See more in **results/text_metrics-250-.test.full.txt**
 
-The PEGASUS was finetuned on 6143 Russian sport text broadcasts. The text broadcasts are about different football and hockey matches in Russian Language. The origin of used data is [sports.ru](https://www.sports.ru/)
+The PEGASUS was finetuned on 6143 Russian sport text broadcasts. The text broadcasts are about different football and hockey matches in Russian Language. The origin of used data is [sports.ru](https://www.sports.ru/).This data is available for the research purposes
